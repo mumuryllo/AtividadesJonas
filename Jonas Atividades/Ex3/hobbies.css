@@ -1,0 +1,44 @@
+*{
+ box-sizing: border-box;   
+}
+
+
+body{
+ background-color: cornflowerblue;   
+}
+
+h1{
+ display: inline-flexbox;
+ background-color: darkturquoise;
+ color: lightcyan;   
+}
+#B{
+    display: inline-block;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px,30px,30px,30px;
+    border: dotted 5px red;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    background-color: darkturquoise;
+}
+#surf{
+    color: firebrick;   
+}
+#C{
+    display: contents;
+    display: inline-block;
+    flex-direction: row;
+    width: 660px;
+    height: 300px;
+    margin: 30px,30px,30px,30px;
+    text-align: center;
+    line-height: 200px;
+    border: dotted 5px red;
+    font-size: 20px;
+    background-color: darkturquoise;
+}
+p{
+color: darkcyan;
+}

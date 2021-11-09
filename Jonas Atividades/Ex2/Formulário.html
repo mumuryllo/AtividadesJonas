@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Formulário.css">
+    <title>Formulário</title>
+</head>
+<body>
+<div class="box">
+ <form action="">
+  <fieldset>
+   <legend><strong>Formulario de Cadastro</strong></legend>
+   <h3>A segurança de seus dados é nossa maior prioridade</h3>
+   <br>
+    <br>
+    <div class="inputbox">
+        <label >Selecione o seu país de origem</label>
+       <select >
+        <option value="">Selecione...</option>
+        <optgroup label="Sul América">
+            <option value="Ar">Argentina</option>
+            <option value="Br">Brasil</option>
+            <option value="Co">Colombia</option>
+        </optgroup>
+        <optgroup label="Europa">
+            <option value="Es">Espanha</option>
+            <option value="It">Itália</option>
+            <option value="Pt">Portugal</option>
+        </optgroup>
+    </div>
+    <br>
+    
+   <div class="inputbox">
+    <input type="text" name="nome" id="nome" class="inputUser" required>
+    <label for="nome" class="labelinput">Nome Completo*</label>   
+   </div> 
+   <br><br>  
+   <div class="inputbox">
+    <input type="email" name="email" id="email" class="inputUser" required>
+    <label for="email" class="labelinput">E-mail*</label>   
+   </div>
+   <br><br>  
+   <p>Sexo:*</p>
+   <input type="radio" id="feminino" name="genero" value="feminino" required>
+   <label for="feminino" class="labelinput">Feminino</label>
+   <input type="radio" id="masculino" name="genero" value="feminino" required>
+   <label for="masculino" class="labelinput">Masculino</label>
+   <input type="radio" id="outro" name="genero" value="feminino" required>
+   <label for="outro" class="labelinput">Outro</label>
+   <br><br>
+
+   <div class="inputbox">
+    <label>Selecione algum hobbie.</label><br><br>
+    <input type="checkbox" name="tecnologia1" id="tecnologia1" value="Musica">
+    <label for="tecnologia1">Musica</label> 
+    <input type="checkbox" name="tecnologia2" id="tecnologia2" value="Cantar">
+    <label for="tecnologia2">Cantar</label> 
+    <input type="checkbox" name="tecnologia3" id="tecnologia3" value="Dançar">
+    <label for="tecnologia3">Dançar</label> 
+    <input type="checkbox" name="tecnologia4" id="tecnologia4" value="Desenhar">
+    <label for="tecnologia4">Desenhar</label> 
+    <input type="checkbox" name="tecnologia5" id="tecnologia5" value="Videogame">
+    <label for="tecnologia5">Videogame</label> 
+</div>
+
+<div id="tex">
+    <br>
+<label>Faça um comentário aqui*: </label>  
+<textarea  id="experiencia" name="experiencia" required></textarea>      
+</div>
+<br>
+
+   <br><br> 
+   <button  type="submit" name="submit" id="submit">Enviar!</button>>
+   <button  type="submit" name="reset" id="submit">Inserir novamente!</button>>
+  </fieldset>   
+ </form>   
+</div>
+<br><br>  
+<div>  
+</body>
+</html>
